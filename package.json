@@ -1,0 +1,73 @@
+{
+  "name": "claude-theme",
+  "displayName": "Claude Theme",
+  "description": "A warm, professional VS Code theme inspired by Claude's design system",
+  "version": "0.1.1",
+  "publisher": "claude-theme",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "claude",
+    "warm",
+    "professional",
+    "rust",
+    "orange",
+    "serif",
+    "light",
+    "dark"
+  ],
+  "galleryBanner": {
+    "color": "#C15F3C",
+    "theme": "light"
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnahian/vscode-claude-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/jnahian/vscode-claude-theme/issues"
+  },
+  "homepage": "https://github.com/jnahian/vscode-claude-theme#readme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Claude Light",
+        "uiTheme": "vs",
+        "path": "./themes/claude-light-color-theme.json"
+      },
+      {
+        "label": "Claude Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-dark-color-theme.json"
+      }
+    ],
+    "configuration": {
+      "title": "Claude Theme",
+      "properties": {
+        "claude-theme.fontFamily": {
+          "type": "string",
+          "default": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
+          "description": "Recommended font family for Claude theme (serif fonts)"
+        },
+        "claude-theme.fontSize": {
+          "type": "number",
+          "default": 14,
+          "description": "Recommended font size for Claude theme"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
