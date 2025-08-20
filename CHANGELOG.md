@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2025-08-20
+
+### Added
+- **Project Structure**: Reorganized files into logical folders
+  - Moved documentation to `docs/` folder (PLAN.md, TODO.md)
+  - Moved .vsix packages to `packages/` folder
+  - Updated README with project structure overview
+- **React/JSX Support**: Enhanced syntax highlighting for React components
+  - Better text content colors in JSX (blackish in light mode, whitish in dark mode)
+  - Improved component name highlighting with Claude's primary color
+  - Support for TypeScript JSX (.tsx files)
+
+### Changed
+- **Build Process**: Updated package generation to output to `packages/` folder
+- **Documentation**: Added comprehensive project structure section to README
+- **npm Scripts**: Updated package script to use new folder structure
+
 ## [0.1.1] - 2025-08-20
 
 ### Fixed

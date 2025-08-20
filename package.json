@@ -2,7 +2,7 @@
   "name": "claude-theme",
   "displayName": "Claude Theme",
   "description": "A warm, professional VS Code theme inspired by Claude's design system",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "claude-theme",
   "engines": {
     "vscode": "^1.74.0"
@@ -64,7 +64,7 @@
     }
   },
   "scripts": {
-    "package": "vsce package",
+    "package": "vsce package --out packages/",
     "publish": "vsce publish"
   },
   "devDependencies": {

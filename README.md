@@ -147,17 +147,39 @@ To build and package the theme from source:
 # Install dependencies
 npm install
 
-# Package the extension
-npx vsce package
+# Package the extension (creates .vsix in packages/ folder)
+npm run package
 
-# This creates claude-theme-X.X.X.vsix file for installation
+# Or use vsce directly
+npx vsce package --out packages/
 ```
 
 Install the packaged extension:
 1. Open VS Code
 2. Press `Ctrl+Shift+P` / `Cmd+Shift+P`
 3. Type "Extensions: Install from VSIX"
-4. Select the generated `.vsix` file
+4. Navigate to `packages/` folder and select the `.vsix` file
+
+## 📁 Project Structure
+
+```
+vscode-claude-theme/
+├── docs/                     # Documentation
+│   ├── PLAN.md              # Implementation plan
+│   └── TODO.md              # Task tracking
+├── packages/                 # Built .vsix files
+│   ├── claude-theme-0.1.0.vsix
+│   ├── claude-theme-0.1.1.vsix
+│   └── claude-theme-0.1.2.vsix
+├── themes/                   # Theme JSON files
+│   ├── claude-light-color-theme.json
+│   └── claude-dark-color-theme.json
+├── README.md
+├── CHANGELOG.md
+├── LICENSE
+├── package.json
+└── icon.png
+```
 
 ## 📞 Support
 

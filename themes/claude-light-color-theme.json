@@ -703,6 +703,34 @@
       "settings": {
         "foreground": "#2c2c2c"
       }
+    },
+    {
+      "name": "JSX - Text Content",
+      "scope": [
+        "meta.jsx.children",
+        "meta.jsx.children.tsx",
+        "text.html.basic",
+        "source.js.jsx meta.jsx.children",
+        "source.tsx meta.jsx.children",
+        "source.js meta.jsx.children",
+        "punctuation.definition.string.template.begin.js",
+        "punctuation.definition.string.template.end.js"
+      ],
+      "settings": {
+        "foreground": "#1a1a1a"
+      }
+    },
+    {
+      "name": "JSX - Component Names",
+      "scope": [
+        "support.class.component.jsx",
+        "support.class.component.tsx",
+        "entity.name.tag.jsx",
+        "entity.name.tag.tsx"
+      ],
+      "settings": {
+        "foreground": "#C15F3C"
+      }
     }
   ]
 }
