@@ -5,10 +5,10 @@ A warm, professional VS Code theme inspired by Claude's design system, featuring
 ## 🎨 Preview
 
 ### Claude Light
-![Claude Light Theme Preview](screenshots/claude-light-preview.png)
+![Claude Light Theme Preview](screenshots/claude-light-preview.jpg)
 
 ### Claude Dark  
-![Claude Dark Theme Preview](screenshots/claude-dark-preview.png)
+![Claude Dark Theme Preview](screenshots/claude-dark-preview.jpg)
 
 ## ✨ Features
 
