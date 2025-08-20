@@ -1,0 +1,88 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <radialGradient id="backgroundGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" style="stop-color:#E8744A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C15F3C;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FDF8F5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#backgroundGradient)" stroke="none"/>
+  
+  <!-- Inner shadow effect -->
+  <circle cx="64" cy="64" r="60" fill="none" stroke="#A14A2F" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Letter "C" for Claude -->
+  <path d="M 44 40 
+           Q 32 40 32 52
+           Q 32 64 32 76
+           Q 32 88 44 88
+           Q 52 88 58 82
+           L 54 78
+           Q 50 82 44 82
+           Q 38 82 38 76
+           Q 38 64 38 52
+           Q 38 46 44 46
+           Q 50 46 54 50
+           L 58 46
+           Q 52 40 44 40 Z" 
+        fill="url(#textGradient)" 
+        stroke="none"/>
+  
+  <!-- Code brackets to represent VS Code -->
+  <g fill="url(#textGradient)" opacity="0.8">
+    <!-- Left bracket -->
+    <path d="M 72 45 
+             L 68 45 
+             L 68 50
+             L 66 50
+             L 66 54
+             L 68 54
+             L 68 74
+             L 66 74
+             L 66 78
+             L 68 78
+             L 68 83
+             L 72 83
+             L 72 79
+             L 70 79
+             L 70 76
+             L 72 76
+             L 72 52
+             L 70 52
+             L 70 49
+             L 72 49
+             Z"/>
+    
+    <!-- Right bracket -->
+    <path d="M 84 45
+             L 88 45
+             L 88 49
+             L 86 49
+             L 86 52
+             L 88 52
+             L 88 76
+             L 86 76
+             L 86 79
+             L 88 79
+             L 88 83
+             L 84 83
+             L 84 78
+             L 86 78
+             L 86 74
+             L 84 74
+             L 84 54
+             L 86 54
+             L 86 50
+             L 84 50
+             Z"/>
+  </g>
+  
+  <!-- Subtle highlight on top -->
+  <ellipse cx="64" cy="25" rx="20" ry="8" fill="#FFFFFF" opacity="0.15"/>
+</svg>
