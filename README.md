@@ -117,17 +117,6 @@ Contributions are welcome! Please feel free to:
 3. **Add Language Support**: Help improve syntax highlighting for specific languages
 4. **Documentation**: Help improve this README or add screenshots
 
-## 📝 Changelog
-
-### Version 0.1.0
-- Initial release
-- Claude Light theme implementation
-- Claude Dark theme implementation  
-- Complete syntax highlighting for major languages
-- UI theming for all VS Code panels
-- Terminal color integration
-- Git decoration colors
-
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) file for details.
@@ -138,48 +127,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - Design philosophy based on Claude's warm, professional aesthetic
 - Color palette derived from Claude's brand guidelines
 - Typography recommendations following Claude's serif font preferences
-
-## 🔧 Development
-
-To build and package the theme from source:
-
-```bash
-# Install dependencies
-npm install
-
-# Package the extension (creates .vsix in packages/ folder)
-npm run package
-
-# Or use vsce directly
-npx vsce package --out packages/
-```
-
-Install the packaged extension:
-1. Open VS Code
-2. Press `Ctrl+Shift+P` / `Cmd+Shift+P`
-3. Type "Extensions: Install from VSIX"
-4. Navigate to `packages/` folder and select the `.vsix` file
-
-## 📁 Project Structure
-
-```
-vscode-claude-theme/
-├── docs/                     # Documentation
-│   ├── PLAN.md              # Implementation plan
-│   └── TODO.md              # Task tracking
-├── packages/                 # Built .vsix files
-│   ├── claude-theme-0.1.0.vsix
-│   ├── claude-theme-0.1.1.vsix
-│   └── claude-theme-0.1.2.vsix
-├── themes/                   # Theme JSON files
-│   ├── claude-light-color-theme.json
-│   └── claude-dark-color-theme.json
-├── README.md
-├── CHANGELOG.md
-├── LICENSE
-├── package.json
-└── icon.png
-```
 
 ## 📞 Support
 
