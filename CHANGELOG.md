@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **Light Theme Background Colors**: Updated for improved visual comfort
+  - Sidebar background: Changed to rgb(245, 244, 237) for warmer tone
+  - Editor background: Changed to rgb(250, 249, 245) for softer contrast
+
 ## [0.1.2] - 2025-08-20
 
 ### Added

@@ -5,9 +5,11 @@ A warm, professional VS Code theme inspired by Claude's design system, featuring
 ## 🎨 Preview
 
 ### Claude Light
+
 ![Claude Light Theme Preview](screenshots/claude-light-preview.jpg)
 
-### Claude Dark  
+### Claude Dark
+
 ![Claude Dark Theme Preview](screenshots/claude-dark-preview.jpg)
 
 ## ✨ Features
@@ -22,6 +24,7 @@ A warm, professional VS Code theme inspired by Claude's design system, featuring
 ## 🎯 Design Philosophy
 
 Claude Theme embodies the same values as Claude itself:
+
 - **Warmth**: Rust-orange accents create a welcoming coding environment
 - **Professionalism**: Clean design suitable for both casual and corporate use
 - **Approachability**: Soft edges and thoughtful color choices reduce visual fatigue
@@ -30,6 +33,7 @@ Claude Theme embodies the same values as Claude itself:
 ## 🚀 Installation
 
 ### From VS Code Marketplace
+
 1. Open VS Code
 2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
 3. Search for "Claude Theme"
@@ -37,6 +41,7 @@ Claude Theme embodies the same values as Claude itself:
 5. Select the theme: Ctrl+K Ctrl+T / Cmd+K Cmd+T → "Claude Light" or "Claude Dark"
 
 ### Manual Installation
+
 1. Download the `.vsix` file from releases
 2. Open VS Code
 3. Press Ctrl+Shift+P / Cmd+Shift+P
@@ -46,16 +51,19 @@ Claude Theme embodies the same values as Claude itself:
 ## 🎨 Color Palette
 
 ### Primary Colors
+
 - **Claude Orange**: `#C15F3C` - Primary accent and brand color
 - **Dark Orange**: `#A14A2F` - Darker variant for emphasis
 
 ### Light Theme
-- **Background**: `#fdfcfb` - Warm off-white
+
+- **Background**: `#faf9f5` - Warm off-white
 - **Text**: `#2c2c2c` - Dark charcoal
-- **Sidebar**: `#f8f7f6` - Light warm grey
+- **Sidebar**: `#f5f4ed` - Light warm grey
 - **Selection**: `#C15F3C30` - Transparent orange
 
-### Dark Theme  
+### Dark Theme
+
 - **Background**: `#1a1815` - Warm dark brown
 - **Text**: `#e8e6e3` - Light warm grey
 - **Sidebar**: `#201d18` - Medium dark brown
@@ -74,6 +82,7 @@ Claude Theme is optimized for serif fonts that match Claude's typography philoso
 ```
 
 ### Premium Font Recommendations
+
 - **Tiempos Text** - Klim Type Foundry
 - **Styrene** - Commercial Type
 - **Charter** - Bitstream (free alternative)
@@ -135,4 +144,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-*"Code with warmth and professionalism."* - Claude Theme
+_"Code with warmth and professionalism."_ - Claude Theme
