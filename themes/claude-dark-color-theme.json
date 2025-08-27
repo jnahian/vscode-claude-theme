@@ -82,7 +82,7 @@
     "terminal.ansiBlack": "#1a1815",
     "terminal.ansiRed": "#ff6b6b",
     "terminal.ansiGreen": "#4caf50",
-    "terminal.ansiYellow": "#ffeb3b",
+    "terminal.ansiYellow": "#f3df31",
     "terminal.ansiBlue": "#42a5f5",
     "terminal.ansiMagenta": "#ab47bc",
     "terminal.ansiCyan": "#26c6da",
@@ -136,7 +136,7 @@
     "gitDecoration.deletedResourceForeground": "#ff6b6b",
     "gitDecoration.untrackedResourceForeground": "#4caf50",
     "gitDecoration.ignoredResourceForeground": "#6a6158",
-    "gitDecoration.conflictingResourceForeground": "#ffeb3b",
+    "gitDecoration.conflictingResourceForeground": "#f3df31",
     
     // Peek view
     "peekView.border": "#C15F3C",
@@ -344,7 +344,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#ffeb3b"
+        "foreground": "#f3df31"
       }
     },
     {
@@ -428,7 +428,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#ffeb3b"
+        "foreground": "#f3df31"
       }
     },
     {
@@ -437,7 +437,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#ffeb3b"
+        "foreground": "#f3df31"
       }
     },
     {
@@ -541,7 +541,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ffeb3b"
+        "foreground": "#f3df31"
       }
     },
     {
@@ -689,7 +689,7 @@
         "constant.other.reference.link.markdown"
       ],
       "settings": {
-        "foreground": "#ffeb3b"
+        "foreground": "#f3df31"
       }
     },
     {

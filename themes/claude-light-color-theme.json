@@ -8,9 +8,8 @@
     "selection.background": "#C15F3C40",
     "errorForeground": "#d73a49",
     "icon.foreground": "#C15F3C",
-    
     // Editor colors
-    "editor.background": "#fdfcfb",
+    "editor.background": "#faf9f5",
     "editor.foreground": "#2c2c2c",
     "editor.selectionBackground": "#C15F3C30",
     "editor.selectionHighlightBackground": "#C15F3C20",
@@ -21,31 +20,26 @@
     "editor.wordHighlightStrongBackground": "#C15F3C30",
     "editor.hoverHighlightBackground": "#C15F3C20",
     "editor.rangeHighlightBackground": "#C15F3C15",
-    
     // Cursor and indentation
     "editorCursor.foreground": "#C15F3C",
     "editorIndentGuide.background": "#e8e6e3",
     "editorIndentGuide.activeBackground": "#C15F3C",
     "editorWhitespace.foreground": "#e8e6e3",
-    
     // Line numbers
     "editorLineNumber.foreground": "#a19a94",
     "editorLineNumber.activeForeground": "#C15F3C",
-    
     // Gutter
     "editorGutter.background": "#fdfcfb",
     "editorGutter.modifiedBackground": "#C15F3C",
     "editorGutter.addedBackground": "#28a745",
     "editorGutter.deletedBackground": "#d73a49",
-    
     // Sidebar
-    "sideBar.background": "#f8f7f6",
+    "sideBar.background": "#f5f4ed",
     "sideBar.foreground": "#2c2c2c",
     "sideBar.border": "#e8e6e3",
     "sideBarTitle.foreground": "#C15F3C",
     "sideBarSectionHeader.background": "#f0efed",
     "sideBarSectionHeader.foreground": "#2c2c2c",
-    
     // Activity bar
     "activityBar.background": "#f0efed",
     "activityBar.foreground": "#2c2c2c",
@@ -53,14 +47,12 @@
     "activityBar.activeBorder": "#C15F3C",
     "activityBarBadge.background": "#C15F3C",
     "activityBarBadge.foreground": "#ffffff",
-    
     // Status bar
     "statusBar.background": "#C15F3C",
     "statusBar.foreground": "#ffffff",
     "statusBar.border": "#A14A2F",
     "statusBar.debuggingBackground": "#d73a49",
     "statusBar.noFolderBackground": "#C15F3C",
-    
     // Tab bar
     "tab.activeBackground": "#fdfcfb",
     "tab.activeForeground": "#2c2c2c",
@@ -69,13 +61,11 @@
     "tab.inactiveForeground": "#6a6a6a",
     "tab.border": "#e8e6e3",
     "tabBar.border": "#e8e6e3",
-    
     // Panel
     "panel.background": "#f8f7f6",
     "panel.border": "#e8e6e3",
     "panelTitle.activeForeground": "#C15F3C",
     "panelTitle.inactiveForeground": "#6a6a6a",
-    
     // Terminal
     "terminal.background": "#fdfcfb",
     "terminal.foreground": "#2c2c2c",
@@ -87,42 +77,34 @@
     "terminal.ansiMagenta": "#ea4aaa",
     "terminal.ansiCyan": "#39c5cf",
     "terminal.ansiWhite": "#fdfcfb",
-    
     // Lists and trees
     "list.activeSelectionBackground": "#C15F3C20",
     "list.activeSelectionForeground": "#2c2c2c",
     "list.hoverBackground": "#C15F3C15",
     "list.focusBackground": "#C15F3C30",
     "tree.indentGuidesStroke": "#e8e6e3",
-    
     // Input controls
     "input.background": "#ffffff",
     "input.border": "#e8e6e3",
     "input.foreground": "#2c2c2c",
     "input.placeholderForeground": "#a19a94",
     "inputOption.activeBorder": "#C15F3C",
-    
     // Buttons
     "button.background": "#C15F3C",
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#A14A2F",
-    
     // Dropdown
     "dropdown.background": "#ffffff",
     "dropdown.border": "#e8e6e3",
     "dropdown.foreground": "#2c2c2c",
-    
     // Badge
     "badge.background": "#C15F3C",
     "badge.foreground": "#ffffff",
-    
     // Progress bar
     "progressBar.background": "#C15F3C",
-    
     // Bracket matching
     "editorBracketMatch.background": "#C15F3C30",
     "editorBracketMatch.border": "#C15F3C",
-    
     // Git colors
     "gitDecoration.modifiedResourceForeground": "#C15F3C",
     "gitDecoration.deletedResourceForeground": "#d73a49",
