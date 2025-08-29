@@ -7,7 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.6] - 2025-08-29
+
 ### Changed
+- **Package Name**: Updated theme name from "claude-theme" to "jnahian-claude-theme"
 - **Light Theme Background Colors**: Updated for improved visual comfort
   - Sidebar background: Changed to rgb(245, 244, 237) for warmer tone
   - Editor background: Changed to rgb(250, 249, 245) for softer contrast
