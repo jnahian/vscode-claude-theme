@@ -1,7 +1,9 @@
 .claude
 .vscode
-.docs
 .env
 
+docs
+packages
 node_modules
+publish.sh
 
