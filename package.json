@@ -1,8 +1,8 @@
 {
   "name": "jnahian-claude-theme",
   "displayName": "Claude Theme by jnahian",
-  "description": "A warm, professional VS Code theme inspired by Claude's design system",
-  "version": "0.1.7",
+  "description": "A warm, professional VS Code theme inspired by Claude's design system. Available on VS Code Marketplace and Open VSX Registry.",
+  "version": "0.1.8",
   "publisher": "jnahian",
   "engines": {
     "vscode": "^1.74.0"
