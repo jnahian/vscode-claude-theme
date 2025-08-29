@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.8] - 2025-08-29
+
+### Added
+- **Publishing Automation**: Created comprehensive publishing system
+  - New `publish.sh` bash script with interactive progress bar
+  - Automated publishing to both VS Code Marketplace and Open VSX Registry
+  - Progress tracking with visual indicators and percentages
+  - Environment variable validation for secure PAT management
+- **Multi-Platform Support**: Extension now available on both marketplaces
+  - Updated package description to reflect dual availability
+  - Simplified npm scripts to use unified publishing approach
+
+### Changed
+- **Publishing Process**: Streamlined from multiple npm scripts to single bash script
+- **Package Scripts**: Simplified `publish` script to use `./publish.sh`
+- **Documentation**: Updated publishing documentation with new workflow
+
+## [0.1.7] - 2025-08-29
+
+### Changed
+- **Package Description**: Updated to mention availability on both VS Code Marketplace and Open VSX Registry
+
 ## [0.1.6] - 2025-08-29
 
 ### Changed
