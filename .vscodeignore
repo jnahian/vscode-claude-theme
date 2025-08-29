@@ -1,0 +1,7 @@
+.claude
+.vscode
+.docs
+.env
+
+node_modules
+

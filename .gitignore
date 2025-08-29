@@ -5,4 +5,7 @@ node_modules
 .claude
 .vscode
 
+# Environment variables
+.env
+
 TODO.md

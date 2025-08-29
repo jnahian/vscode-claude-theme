@@ -2,7 +2,7 @@
   "name": "jnahian-claude-theme",
   "displayName": "Claude Theme by jnahian",
   "description": "A warm, professional VS Code theme inspired by Claude's design system",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "publisher": "jnahian",
   "engines": {
     "vscode": "^1.74.0"
@@ -28,7 +28,7 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jnahian/vscode-claude-theme"
+    "url": "git+https://github.com/jnahian/vscode-claude-theme.git"
   },
   "bugs": {
     "url": "https://github.com/jnahian/vscode-claude-theme/issues"
@@ -65,10 +65,13 @@
   },
   "scripts": {
     "package": "vsce package --out packages/",
-    "publish": "vsce publish"
+    "publish": "./publish.sh"
   },
   "devDependencies": {
-    "vsce": "^2.15.0"
+    "dotenv-cli": "^10.0.0",
+    "ovsx": "^0.10.5"
   },
-  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
+  "dependencies": {
+    "@vscode/vsce": "^3.6.0"
+  }
 }
